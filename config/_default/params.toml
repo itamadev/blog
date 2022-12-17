@@ -40,7 +40,7 @@ mainSections = ["posts", "section2"]
 
 [article]
   showDate = true
-  showViews = true
+  #showViews = true
   #showLikes = true
   showDateUpdated = false
   showAuthor = true
