@@ -14,9 +14,9 @@ teams can often get overwhelmed with the thoughts of what to test. or what shoul
 
 Here is a curated list of some of the key features I look into when learning and considering using tech in my personal projects or at work with the teams I work with. 
 
-## Activenes & Community
+## Activity & Community
 
-One of the first and more noticeable things to look for when checking out new tech is the community and activeness of the project, an active community can serve you well at the start and further down the road.
+One of the first and more noticeable things to look for when checking out new tech is the community and activity of the project, an active community can serve you well at the start and further down the road.
 
 It could be helpful even when reading into the tool you're using with more articles or documentation being written or when getting stuck and in need of help, someone might just be stuck with you, and even better - someone might have already got a solution to your problem!
 
@@ -43,7 +43,7 @@ but if we are looking at a more challenging chore, considering using a project e
 
 ## Maintenance
 
-As we just mentioned while talking about the project size and activeness, maintenance is very important, we want to be sure we can rely on the projects we use.
+As we just mentioned while talking about the project size and activity, maintenance is very important, we want to be sure we can rely on the projects we use.
 
 OpenSource projects don't have a strict responsibility when it comes to maintenance, and when we don't have active maintenance this metric becomes far more concerning, someday we might hear that our favorite CI/CD platform isn't going to be maintained anymore, or even our central go framework which we based our whole application on will stop being maintained.
 
