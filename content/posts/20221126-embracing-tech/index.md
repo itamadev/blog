@@ -1,5 +1,5 @@
 ---
-title: "Embracing Technologies"
+title: "Adopting Technologies"
 description: "How to know if a tool is right for you?"
 summary: "How to know if a tool is right for you?"
 categories: []
