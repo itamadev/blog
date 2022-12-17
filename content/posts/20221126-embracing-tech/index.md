@@ -49,7 +49,7 @@ OpenSource projects don't have a strict responsibility when it comes to maintena
 
 Some tools have active support, and they might even have the founder/owner of the project actively responding to PRs, and Issues. 
 
-While a strong community can really boost your whole workflow and process, support from the maker of the tool might be needed in some obscure use cases, it's essential to rely on software that is actively being maintained, and so even without intimate support from the owner, the maintenance might be just enough, and we need to keep in mind that in the future the project might have a differnet owner and even from the active community.
+While a strong community can really boost your whole workflow and process, support from the maker of the tool might be needed in some obscure use cases, it's essential to rely on software that is actively being maintained, and so even without intimate support from the owner, the maintenance might be just enough, and we need to keep in mind that in the future the project might have a different owner and even from the active community.
 
 > Something important to keep in mind is that after we choose our technology we still need to actively watch out for updates and maintenance changes.
 
