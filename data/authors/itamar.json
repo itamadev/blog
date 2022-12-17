@@ -1,0 +1,11 @@
+{
+    "name": "Itamar Knafo",
+    "image" : "img/avatar-dark.png",
+    "bio": "Staff Product Manager",
+    "social": [
+        { "dev": "https://dev.to/itamadev" },
+        { "linkedin": "https://linkedin.com/in/itamar-knafo-a76a5b19b/" },
+        { "github": "https://github.com/itamadev" },
+        { "medium": "https://medium.com/@itamadev" }
+    ]
+}
