@@ -43,7 +43,7 @@ but if we are looking at a more challenging chore, considering using a project e
 
 ## Maintenance
 
-As we just mentioned while talking about the project size and activeness, **maintenance** is very important, we want to be sure we can rely on the projects we use.
+As we just mentioned while talking about the project size and activeness, maintenance is very important, we want to be sure we can rely on the projects we use.
 
 OpenSource projects don't have a strict responsibility when it comes to maintenance, and when we don't have active maintenance this metric becomes far more concerning, someday we might hear that our favorite CI/CD platform isn't going to be maintained anymore, or even our central go framework which we based our whole application on will stop being maintained.
 
@@ -51,7 +51,7 @@ Some tools have active support, and they might even have the founder/owner of th
 
 While a strong community can really boost your whole workflow and process, support from the maker of the tool might be needed in some obscure use cases, it's essential to rely on software that is actively being maintained, and so even without intimate support from the owner, the maintenance might be just enough, and we need to keep in mind that in the future the project might have a different owner and even from the active community.
 
-> Something important to keep in mind is that after we choose our technology we still need to actively watch out for updates and maintenance changes.
+Something important to keep in mind is that after we choose our technology we still need to actively watch out for updates and maintenance changes.
 
 ## Programming Language
 
