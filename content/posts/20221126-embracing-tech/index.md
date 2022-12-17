@@ -59,7 +59,7 @@ The last but certainly not least bullet point is the programming language being 
 
 Sometimes we might just be using a project as an outside service and sometimes as a fully integrated library or SDK.
 
-We need to check that the main languages that we use are being supported and it's even better if the project itself is written in one some of them, then when experiencing problems or looking at Issues some of our team might be able to help fix them and submit a PR.
+We need to check that the main languages that we use are being supported and it's even better if the project itself is written in one of them, then when experiencing problems or looking at Issues some of our team might be able to help fix them and submit a PR.
 
 This metric isn't as groundbreaking but can definitely serve you well, as I can say from my experience it has.
 
