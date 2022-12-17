@@ -63,7 +63,7 @@ We need to check that the main languages that we use are being supported and it'
 
 This metric isn't as groundbreaking but can definitely serve you well, as I can say from my experience it has.
 
-## Summery
+## Summary
 
-When looking into technologies we want to be aware we are using someone else's code, we want to know we aren't just inviting problems into our workflow and tech stack and we want to follow some rules in doing so.
+We want to be aware when using someone else's code and looking at new tech, we want to know we aren't just inviting problems into our workflow and tech stack and we want to follow some rules in doing so.
 I hope now you can be a little bit more sure about when integrating new technologies into your tech stack.
