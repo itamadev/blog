@@ -31,7 +31,7 @@ Pod and Node eviction can happen due to a variety of reasons, such as:
 
 ## Some Examples of Pod and Node Evictions
 
-- Node failure - Let's say you have a Kubernetes cluster with three Nodes. One of the Nodes experiences a hardware failure, causing it to become un-schedulable. The Kubernetes scheduler identifies the Pods running on the failed Node and reschedules them on the remaining Nodes, marking the failed Node for eviction.
+- Node failure - Suppose you have a Kubernetes cluster with three Nodes. One of the Nodes experiences a hardware failure, causing it to become un-schedulable. The Kubernetes scheduler identifies the Pods running on the failed Node and reschedules them on the remaining Nodes, marking the failed Node for eviction.
   
 - Resource constraints - If a Pod starts consuming too much CPU or memory, it can cause the Node to run out of resources. Kubernetes may then decide to evict the Pod to free up resources for other Pods running on the Node.
 
@@ -57,7 +57,7 @@ Pod and Node eviction is inevitable in a Kubernetes cluster, and it is essential
   
 - Use `PodDisruptionBudgets` - Use `PodDisruptionBudgets` to ensure that a minimum number of Pods are available during Pod eviction, which can prevent service disruption.
 
-- Use `NodeAffinity` and anti-affinity - Use `NodeAffinity` and anti-affinity rules to ensure that Pods is scheduled on Nodes that meet certain criteria, such as having enough resources or being in a specific zone.
+- Use `NodeAffinity` and anti-affinity - Use `NodeAffinity` and anti-affinity rules to ensure that Pods are scheduled on Nodes that meet certain criteria, such as having enough resources or being in a specific zone.
 
 - Use node maintenance modes - Use node maintenance modes to gracefully drain a Node before evicting the Pods, which can prevent service disruption.
 
