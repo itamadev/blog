@@ -6,3 +6,11 @@ A repo of my personal blog featuring my articles and projects and some of my lat
 I also publish most of the articles on `medium.com` and `dev.to`
 
 Powered by: [Blowfish](https://nunocoracao.github.io/blowfish/)
+
+## Quick Start
+
+Start the server with:
+
+```bash
+hugo server 
+```
