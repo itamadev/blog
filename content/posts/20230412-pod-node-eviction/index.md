@@ -3,7 +3,7 @@ title: "Pod & Node Eviction"
 description: "What is Pod and Node Eviction in Kubernetes?"
 summary: "What is Pod and Node Eviction in Kubernetes?"
 categories: []
-tags: ["tech", "devops", "software", "development", "oss"]
+tags: ["tech", "devops", "software", "development", "kubernetes", "containers", "cloud"]
 showSummary: true
 date: 2023-04-12
 showauthor: true
