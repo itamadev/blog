@@ -7,7 +7,7 @@ rtl = false
 
 title = "itamadev"
 # logo = "img/avatar-dark.png"
-description = "Open Source Enthusiast • Software Engineer and Tech Lead"
+description = "Open Source Enthusiast • Tech Lead and Software Engineer"
 copyright = "© 2023 Itamar Knafo"
 
 dateFormat = "2 January 2006"
@@ -15,7 +15,7 @@ dateFormat = "2 January 2006"
 [author]
   name = "Itamar Knafo"
   image = "img/avatar-dark.png"
-  headline = "Open Source Enthusiast • Software Engineer and Tech Lead"
+  headline = "Open Source Enthusiast • Tech Lead and Software Engineer"
   # bio = "A little bit about you"
   links = [
   #   { email = "mailto:hello@your_domain.com" },
