@@ -11,7 +11,7 @@ showauthor: true
 
 ![banner](./banner-light.png)
 
-Here is a quick guide on how to bootstrap a blog of your own, just like this one using [Hugo](https://gohugo.io) and [fly.io](https://fly.io).
+Here we will go through how to bootstrap your own blog using [Hugo](https://gohugo.io) and [fly.io](https://fly.io).
 
 ## Prerequisites
 
