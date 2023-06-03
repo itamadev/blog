@@ -21,6 +21,9 @@ Here is a list of toolings you will need to have installed on your machine:
 - [fly.io](https://fly.io)
 - [git](https://git-scm.com)
     - [GitHub](https://github.com) account
+
+Optional:
+
 - [Golang](https://golang.org) (optional, but I will be using it in this guide)
 - [Docker](https://www.docker.com) (optional, only needed to run the blog locally using Docker)
 
@@ -73,7 +76,15 @@ Now so far if we run `hugo server` we will see the following when we access [htt
 
 ![Hugo server](./hugo-server.png)
 
-Now you can start working on your blog following the [blowfish theme documentation](https://blowfish.page/docs/getting-started/).
+From here you can start working on your blog following the [blowfish theme documentation](https://blowfish.page/docs/getting-started/).
+
+**Recomnadation:** I would recommend you to use vendoring to manage your theme dependencies. 
+
+To do so, you can use the `hugo mod vendor` command:
+
+```bash
+hugo mod vendor
+```
 
 ## Add a Dockerfile
 
@@ -142,6 +153,20 @@ Wrote config file fly.toml
 
 The launch command generates a `fly.toml` file for your project with the settings. You can deploy right away, or add some config first.
 
+Your `fly.toml` file should look something like this:
+
+```toml
+app = "<app-name>"
+primary_region = "<region-name>"
+
+[http_service]
+  internal_port = 1313
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+```
+
 ## Automatic Deployment with GitHub Actions
 
 Now that we have our blog ready, we need to automate the deployment process. To do so, we will use `GitHub Actions`.
@@ -169,6 +194,23 @@ jobs:
 ```
 
 > Make sure you add a `FLY_API_TOKEN` to your repos environment variables. You can get it from [https://fly.io/user/personal_access_tokens](https://fly.io/user/personal_access_tokens).
+
+
+## (Optional) Adding a custom domain
+
+If you want to add a custom domain to your blog, first you need a domain. My personal choice was [Namecheap](https://www.namecheap.com/), but there are many other options out there like [GoDaddy](https://www.godaddy.com/), [Hostinger](https://www.hostinger.com/), [AWS Route 53](https://aws.amazon.com/route53/), etc.
+
+Once you have your domain, we'll need to run the following command to add it to our fly.io app:
+
+```bash
+fly certs create <your-domain>
+```
+
+You'll get prompted with fly needing to verify and configure your domain. Just follow the instructions and add an `A Record` and `AAAA Record` to your DNS provider.
+
+> Important: Don't forget to add the `CNAME` record for `www` as well.
+
+Once it's ready, you can run `fly certs show <your-domain>` to see if everything is working as expected and add any other configuration if needed.
 
 ## Summary
 
