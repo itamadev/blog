@@ -8,7 +8,7 @@ rtl = false
 title = "itamadev"
 # logo = "img/avatar-dark.png"
 description = "Open Source Enthusiast • Software Engineer and Tech Lead"
-# copyright = "Copy, _right?_ :thinking_face:"
+copyright = "© 2023 Itamar Knafo"
 
 dateFormat = "2 January 2006"
 
@@ -38,7 +38,7 @@ dateFormat = "2 January 2006"
   #   { keybase = "https://keybase.io/username" },
   #   { kickstarter = "https://www.kickstarter.com/profile/username" },
   #   { lastfm = "https://lastfm.com/user/username" },
-      { linkedin = "https://linkedin.com/in/itamar-knafo-a76a5b19b/" },
+      { linkedin = "https://www.linkedin.com/in/itamadev/" },
   #   { mastodon = "https://mastodon.instance/@username" },
       { medium = "https://medium.com/@itamadev" },
   #   { microsoft = "https://www.microsoft.com/" },
