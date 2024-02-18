@@ -189,13 +189,13 @@ Once you have your domain, we'll need to run the following command to add it to 
 fly certs create <your-domain>
 ```
 
-You'll get prompted with fly needing to verify and configure your domain. Just follow the instructions and add an `A Record` and `AAAA Record` to your DNS provider as well as adding the `CNAME` record for `www` as well.
+You'll get prompted by fly needing to verify and configure your domain. Just follow the instructions and add an `A Record` and `AAAA Record` to your DNS provider as well as adding the `CNAME` record for `www` as well.
 
-| Type | Name | Value | TTL |
-| ---- | ---- | ----- | --- |
-| A Record | @ | \<value provided by fly\> | Automatic |
-| AAAA Record | @ | \<value provided by fly\> | Automatic |
-| CNAME Record | www | \<your-app-name\>.fly.dev. | 5 min |
+| Type         | Name | Value                      | TTL       |
+| ------------ | ---- | -------------------------- | --------- |
+| A Record     | @    | \<value provided by fly\>  | Automatic |
+| AAAA Record  | @    | \<value provided by fly\>  | Automatic |
+| CNAME Record | www  | \<your-app-name\>.fly.dev. | 5 min     |
 
 Once it's ready, you can run `fly certs show <your-domain>` to see if everything is working as expected and add any other configuration if needed.
 
